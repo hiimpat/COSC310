@@ -4,10 +4,15 @@ The GUI with interface with history of conversation was already made for the A2 
 
   In the original chatbot, the bot was a sales representitive of adidas selling shoes. For this assignment I have added the function to buy socks as well. If the user does not specify what to buy, the bot will ask if they want to buy shoes or socks and then proceed to provide details of the products that the user specified.
 [23:40:45] You: hello
+
 [23:40:46] Bot: Hello sir/madam, how are you doing today?
+
 [23:40:56] You: I would like to buy some products
+
 [23:40:56] Bot: Would you like to purchase some shoes or socks?
+
 [23:41:04] You: shoes
+
 [23:41:04] Bot: What type are you looking for?
 
   In the original, if an unknown phrase was entered, the bot would just say that it doesn't understand and then ask the user to re-enter something else. I have added more phrases to give a certain reply at certain stages of the chat. For example if the bot asks the user for a confirmation for buying a specific shoe and the user enters something invalid, the bot will say it doesn't understand and ask for the confirmation again(with details of the same shoe). After checkout, the bot will ask if the user wants to buy more products, this also has a different response if the user inputs something invalid. If the user inputs a something invalid at a non-specific stage that doesn't require confirmation, the bot will randomly choose one of a few replies which tells the user that it does not understand and gives a suggestion of a phrase that the user can input.
