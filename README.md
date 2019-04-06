@@ -76,3 +76,4 @@ Would you like to purchase another one?
 
 [23:42:28] Bot: What type are you looking for?
 
+  I tried to test the synonym recognition with WordNet by using JAWS(Java Api for Word Searching) and there is a test file within the project but I found it was rather hard to implement it into the current code to improve its functionality
