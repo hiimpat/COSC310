@@ -76,4 +76,4 @@ Would you like to purchase another one?
 
 [23:42:28] Bot: What type are you looking for?
 
-  I tried to test the synonym recognition with WordNet by using JAWS(Java Api for Word Searching) and there is a test file within the project that works. So it takes in a word and returns an array of words with the same meaning. However it was difficult to find a way to implement it properly into the chatbot because of how the way it is structured and how each user input is processed.
+  I tried to test the synonym recognition with WordNet by using JAWS(Java Api for Word Searching) and there is a test file within the project that works(TestJAWS.java). So it takes in a word and returns an array of words with the same meaning. However it was difficult to find a way to implement it properly into the chatbot because of how the way it is structured and how each user input is processed.
